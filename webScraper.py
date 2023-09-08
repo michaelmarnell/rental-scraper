@@ -1,9 +1,9 @@
-from bs4 import BeautifulSoup
-import requests
-import re
-import pandas as pd
+# import re
+# import sys
+# import pandas as pd
 import json
-import sys
+import requests
+from bs4 import BeautifulSoup
 
 # Find the criterion movie URL's
 url = 'https://orangecounty.craigslist.org/search/santa-ana-ca/apa?housing_type=1&housing_type=6&housing_type=7&housing_type=9&lat=33.7707&lon=-117.8859&max_bedrooms=2&max_price=2200&min_bedrooms=1&min_price=1500&search_distance=5.5#search=1~list~0~0'
